@@ -25,8 +25,6 @@ void viewStudent();
 
 int editMenu();
 
-void endEdit();
-
 void edit();
 
 void editName();
@@ -157,12 +155,6 @@ int editMenu(){
     return a;
 }
 
-void endEdit(){
-    cout << "Press enter to continue..." << endl;
-    cin.ignore();
-    getline(cin, junk);
-}
-
 void edit(){
     while(true){
         if(strength==0){
@@ -178,7 +170,7 @@ void edit(){
                     break;
             case 3: break;
             default:cout << "Enter valid postion" << endl;
-                    endEdit();
+                    end();
                     break;
         }
         if(choice==3)
@@ -203,7 +195,7 @@ void editName(){
     cin.ignore();
     getline(cin, students[query-1].name);
     cout << "Edit successful.\n";
-    endEdit();
+    end();
 }
 
 void editMarks(){
@@ -231,7 +223,7 @@ void editMarks(){
         cout << "Edit successful.\n";
         break;
     }
-    endEdit();
+    end();
 }
 
 void deleteStudent(){
