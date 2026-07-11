@@ -1,39 +1,33 @@
-A basic cui based crud application written in c++ to manage student records. A project taken to polish basics of c++ programming language.
+# Student Record Management System
 
-#Features of program:
+A basic console-based CRUD (Create, Read, Update, Delete) application written in C++. This project was built to strengthen my understanding of the fundamentals of the C++ programming language before moving on to more advanced concepts.
 
-add student to records
+## Features
 
-edit student name or marks
+- Add student records
+- Edit a student's name or marks
+- Delete student records
+- Search for a student by roll number
+- Calculate the average marks of all students
+- Find the topper among all records
+- Display the grade of a student
 
-delete student record
+## Concepts Used
 
-search student by roll number
+- Variables
+- Control structures
+- Loops (Iteration)
+- Functions
+- Arrays
+- Structures (`struct`)
+- Pointers
+- Input validation
 
-calculate average marks of students
+## Future Improvements
 
-find topper amongst records
+- Rewrite the project using Object-Oriented Programming (OOP)
+- Replace fixed-size arrays with dynamic arrays (`std::vector`)
 
-display grade for a student
+## Author
 
-#Concepts used:
-
-variables
-
-control structures
-
-iteration
-
-functions
-
-arrays
-
-basic OOP(struct)
-
-input validation
-
-#Future improvements:
-
-convert to OOP
-
-using dynamic arrays
+Saksham Tyagi
