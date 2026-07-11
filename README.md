@@ -20,7 +20,6 @@ A basic console-based CRUD (Create, Read, Update, Delete) application written in
 - Functions
 - Arrays
 - Structures (`struct`)
-- Pointers
 - Input validation
 
 ## Future Improvements
