@@ -246,6 +246,7 @@ void deleteStudent(){
     }
     cout << "Student " << students[query-1].name << " has been removed from records.\n";
     students[query-1].name;
+    students[query-1].marks;
     strength--;
     end();
 }
